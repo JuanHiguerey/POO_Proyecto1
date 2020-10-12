@@ -6,3 +6,6 @@
     -fx-border-radius: 15px;
     -fx-background-radius: 20px;
 }
+.button {
+    -fx-fill: white;
+}

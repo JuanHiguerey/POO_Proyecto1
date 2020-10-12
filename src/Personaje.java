@@ -1,6 +1,6 @@
 public class Personaje {
-    private String nombre;
-    private Stats stats = new Stats();
+    protected String nombre;
+    protected Stats stats = new Stats();
 
     public Personaje(String nombrePersonaje) {
         nombre = nombrePersonaje;

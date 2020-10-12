@@ -6,11 +6,11 @@ public class Stats {
     protected int CRIT;
 
     public Stats() {
-        HP = 100;
-        MP = 20;
-        ATK = 12;
-        DEF = 10;
-        CRIT = 1;
+        HP = 1000;
+        MP = 200;
+        ATK = 120;
+        DEF = 250;
+        CRIT = 4;
     }
 
     public void setHP(int nuevoHP) {

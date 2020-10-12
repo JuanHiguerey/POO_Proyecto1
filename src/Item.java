@@ -14,4 +14,8 @@ public class Item {
     public void setPrecioCompra(int valorPrecioCompra) {
         precioCompra = valorPrecioCompra;
     }
+
+    public void setNombre(String nombreItem) {
+        nombre = nombreItem;
+    }
 }
