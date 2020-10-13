@@ -47,9 +47,9 @@
                         <content>
                           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="478.0" prefWidth="360.0">
                                  <children>
-                                    <Button fx:id="comprarButton1" contentDisplay="CENTER" layoutX="294.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#onClickComprar" prefHeight="25.0" prefWidth="65.0" text="&lt; N/A &gt;">
+                                    <Button fx:id="comprarButton1" contentDisplay="CENTER" layoutX="294.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#onClickComprar" prefHeight="25.0" prefWidth="65.0" text="N/A">
                                        <font>
-                                          <Font name="Centaur" size="12.0" />
+                                          <Font name="Centaur" size="15.0" />
                                        </font>
                                     </Button>
                                     <Label fx:id="ArticuloCompra1" layoutX="34.0" layoutY="14.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Agotado &gt;">
@@ -57,9 +57,9 @@
                                           <Font name="Centaur" size="18.0" />
                                        </font>
                                     </Label>
-                                    <Button fx:id="comprarButton2" layoutX="295.0" layoutY="39.0" mnemonicParsing="false" onMouseClicked="#onClickComprar" prefHeight="25.0" prefWidth="65.0" text="Comprar">
+                                    <Button fx:id="comprarButton2" layoutX="294.0" layoutY="39.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#onClickComprar" prefHeight="25.0" prefWidth="65.0" text="N/A">
                                        <font>
-                                          <Font name="Centaur" size="12.0" />
+                                          <Font name="Centaur" size="15.0" />
                                        </font>
                                     </Button>
                                     <Label fx:id="ArticuloCompra2" layoutX="34.0" layoutY="39.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Agotado &gt;">
@@ -67,9 +67,9 @@
                                           <Font name="Centaur" size="18.0" />
                                        </font>
                                     </Label>
-                                    <Button layoutX="295.0" layoutY="64.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Comprar">
+                                    <Button fx:id="comprarButton3" layoutX="294.0" layoutY="64.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#onClickComprar" prefHeight="25.0" prefWidth="65.0" text="N/A">
                                        <font>
-                                          <Font name="Centaur" size="12.0" />
+                                          <Font name="Centaur" size="15.0" />
                                        </font>
                                     </Button>
                                     <Label fx:id="ArticuloCompra3" layoutX="34.0" layoutY="64.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Agotado &gt;">
@@ -77,9 +77,9 @@
                                           <Font name="Centaur" size="18.0" />
                                        </font>
                                     </Label>
-                                    <Button layoutX="295.0" layoutY="89.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Comprar">
+                                    <Button fx:id="comprarButton4" layoutX="294.0" layoutY="89.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#onClickComprar" prefHeight="25.0" prefWidth="65.0" text="N/A">
                                        <font>
-                                          <Font name="Centaur" size="12.0" />
+                                          <Font name="Centaur" size="15.0" />
                                        </font>
                                     </Button>
                                     <Label fx:id="ArticuloCompra4" layoutX="34.0" layoutY="89.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Agotado &gt;">
@@ -87,9 +87,9 @@
                                           <Font name="Centaur" size="18.0" />
                                        </font>
                                     </Label>
-                                    <Button layoutX="295.0" layoutY="114.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Comprar">
+                                    <Button fx:id="comprarButton5" layoutX="294.0" layoutY="114.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#onClickComprar" prefHeight="25.0" prefWidth="65.0" text="N/A">
                                        <font>
-                                          <Font name="Centaur" size="12.0" />
+                                          <Font name="Centaur" size="15.0" />
                                        </font>
                                     </Button>
                                     <Label fx:id="ArticuloCompra5" layoutX="34.0" layoutY="114.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Agotado &gt;">
@@ -97,9 +97,9 @@
                                           <Font name="Centaur" size="18.0" />
                                        </font>
                                     </Label>
-                                    <Button layoutX="295.0" layoutY="139.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Comprar">
+                                    <Button fx:id="comprarButton6" layoutX="294.0" layoutY="139.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#onClickComprar" prefHeight="25.0" prefWidth="65.0" text="N/A">
                                        <font>
-                                          <Font name="Centaur" size="12.0" />
+                                          <Font name="Centaur" size="14.0" />
                                        </font>
                                     </Button>
                                     <Label fx:id="ArticuloCompra6" layoutX="34.0" layoutY="139.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Agotado &gt;">
@@ -107,9 +107,9 @@
                                           <Font name="Centaur" size="18.0" />
                                        </font>
                                     </Label>
-                                    <Button layoutX="295.0" layoutY="164.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Comprar">
+                                    <Button fx:id="comprarButton7" layoutX="294.0" layoutY="164.0" mnemonicParsing="false" onMouseClicked="#onClickComprar" prefHeight="25.0" prefWidth="65.0" text="N/A">
                                        <font>
-                                          <Font name="Centaur" size="12.0" />
+                                          <Font name="Centaur" size="14.0" />
                                        </font>
                                     </Button>
                                     <Label fx:id="ArticuloCompra7" layoutX="34.0" layoutY="164.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Agotado &gt;">
@@ -117,9 +117,9 @@
                                           <Font name="Centaur" size="18.0" />
                                        </font>
                                     </Label>
-                                    <Button layoutX="295.0" layoutY="189.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Comprar">
+                                    <Button fx:id="comprarButton8" layoutX="294.0" layoutY="189.0" mnemonicParsing="false" onMouseClicked="#onClickComprar" prefHeight="25.0" prefWidth="65.0" text="N/A">
                                        <font>
-                                          <Font name="Centaur" size="12.0" />
+                                          <Font name="Centaur" size="14.0" />
                                        </font>
                                     </Button>
                                     <Label fx:id="ArticuloCompra8" layoutX="34.0" layoutY="189.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Agotado &gt;">
@@ -127,9 +127,9 @@
                                           <Font name="Centaur" size="18.0" />
                                        </font>
                                     </Label>
-                                    <Button layoutX="295.0" layoutY="214.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Comprar">
+                                    <Button fx:id="comprarButton9" layoutX="294.0" layoutY="214.0" mnemonicParsing="false" onMouseClicked="#onClickComprar" prefHeight="25.0" prefWidth="65.0" text="N/A">
                                        <font>
-                                          <Font name="Centaur" size="12.0" />
+                                          <Font name="Centaur" size="14.0" />
                                        </font>
                                     </Button>
                                     <Label fx:id="ArticuloCompra9" layoutX="34.0" layoutY="214.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Agotado &gt;">
@@ -137,9 +137,9 @@
                                           <Font name="Centaur" size="18.0" />
                                        </font>
                                     </Label>
-                                    <Button layoutX="295.0" layoutY="239.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Comprar">
+                                    <Button fx:id="comprarButton10" layoutX="294.0" layoutY="239.0" mnemonicParsing="false" onMouseClicked="#onClickComprar" prefHeight="25.0" prefWidth="65.0" text="N/A">
                                        <font>
-                                          <Font name="Centaur" size="12.0" />
+                                          <Font name="Centaur" size="14.0" />
                                        </font>
                                     </Button>
                                     <Label fx:id="ArticuloCompra10" layoutX="34.0" layoutY="239.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Agotado &gt;">
@@ -147,9 +147,9 @@
                                           <Font name="Centaur" size="18.0" />
                                        </font>
                                     </Label>
-                                    <Button layoutX="295.0" layoutY="264.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Comprar">
+                                    <Button fx:id="comprarButton11" layoutX="294.0" layoutY="264.0" mnemonicParsing="false" onMouseClicked="#onClickComprar" prefHeight="25.0" prefWidth="65.0" text="N/A">
                                        <font>
-                                          <Font name="Centaur" size="12.0" />
+                                          <Font name="Centaur" size="14.0" />
                                        </font>
                                     </Button>
                                     <Label fx:id="ArticuloCompra11" layoutX="34.0" layoutY="264.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Agotado &gt;">
@@ -157,9 +157,9 @@
                                           <Font name="Centaur" size="18.0" />
                                        </font>
                                     </Label>
-                                    <Button layoutX="295.0" layoutY="289.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Comprar">
+                                    <Button fx:id="comprarButton12" layoutX="294.0" layoutY="289.0" mnemonicParsing="false" onMouseClicked="#onClickComprar" prefHeight="25.0" prefWidth="65.0" text="N/A">
                                        <font>
-                                          <Font name="Centaur" size="12.0" />
+                                          <Font name="Centaur" size="14.0" />
                                        </font>
                                     </Button>
                                     <Label fx:id="ArticuloCompra12" layoutX="34.0" layoutY="289.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Agotado &gt;">
@@ -167,9 +167,9 @@
                                           <Font name="Centaur" size="18.0" />
                                        </font>
                                     </Label>
-                                    <Button layoutX="295.0" layoutY="314.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Comprar">
+                                    <Button fx:id="comprarButton13" layoutX="294.0" layoutY="314.0" mnemonicParsing="false" onMouseClicked="#onClickComprar" prefHeight="25.0" prefWidth="65.0" text="N/A">
                                        <font>
-                                          <Font name="Centaur" size="12.0" />
+                                          <Font name="Centaur" size="14.0" />
                                        </font>
                                     </Button>
                                     <Label fx:id="ArticuloCompra13" layoutX="34.0" layoutY="314.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Agotado &gt;">
@@ -177,7 +177,7 @@
                                           <Font name="Centaur" size="18.0" />
                                        </font>
                                     </Label>
-                                    <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="2.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="4.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
                                           <Image url="@iconoArma.jpg" />
                                        </image>
@@ -247,9 +247,155 @@
                         </content>
                       </Tab>
                       <Tab text="      Vender      ">
-                        <content>
-                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                        </content>
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="478.0" prefWidth="360.0">
+                                 <children>
+                                    <Button fx:id="venta1" contentDisplay="CENTER" layoutX="294.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#onClickVender" prefHeight="25.0" prefWidth="65.0" text="N/A">
+                                       <font>
+                                          <Font name="Centaur" size="15.0" />
+                                       </font>
+                                    </Button>
+                                    <Label fx:id="ArticuloVenta1" layoutX="34.0" layoutY="14.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Vacio &gt;">
+                                       <font>
+                                          <Font name="Centaur" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="venta2" layoutX="294.0" layoutY="39.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#onClickVender" prefHeight="25.0" prefWidth="65.0" text="N/A">
+                                       <font>
+                                          <Font name="Centaur" size="15.0" />
+                                       </font>
+                                    </Button>
+                                    <Label fx:id="ArticuloVenta2" layoutX="34.0" layoutY="39.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Vacio &gt;">
+                                       <font>
+                                          <Font name="Centaur" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="venta3" layoutX="294.0" layoutY="64.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#onClickVender" prefHeight="25.0" prefWidth="65.0" text="N/A">
+                                       <font>
+                                          <Font name="Centaur" size="15.0" />
+                                       </font>
+                                    </Button>
+                                    <Label fx:id="ArticuloVenta3" layoutX="34.0" layoutY="64.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Vacio &gt;">
+                                       <font>
+                                          <Font name="Centaur" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="venta4" layoutX="294.0" layoutY="89.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#onClickVender" prefHeight="25.0" prefWidth="65.0" text="N/A">
+                                       <font>
+                                          <Font name="Centaur" size="15.0" />
+                                       </font>
+                                    </Button>
+                                    <Label fx:id="ArticuloVenta4" layoutX="34.0" layoutY="89.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Vacio &gt;">
+                                       <font>
+                                          <Font name="Centaur" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="venta5" layoutX="294.0" layoutY="114.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#onClickVender" prefHeight="25.0" prefWidth="65.0" text="N/A">
+                                       <font>
+                                          <Font name="Centaur" size="15.0" />
+                                       </font>
+                                    </Button>
+                                    <Label fx:id="ArticuloVenta5" layoutX="34.0" layoutY="114.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Vacio &gt;">
+                                       <font>
+                                          <Font name="Centaur" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="venta6" layoutX="294.0" layoutY="139.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#onClickVender" prefHeight="25.0" prefWidth="65.0" text="N/A">
+                                       <font>
+                                          <Font name="Centaur" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Label fx:id="ArticuloVenta6" layoutX="34.0" layoutY="139.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Vacio &gt;">
+                                       <font>
+                                          <Font name="Centaur" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="venta7" layoutX="294.0" layoutY="164.0" mnemonicParsing="false" onMouseClicked="#onClickVender" prefHeight="25.0" prefWidth="65.0" text="N/A">
+                                       <font>
+                                          <Font name="Centaur" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Label fx:id="ArticuloVenta7" layoutX="34.0" layoutY="164.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Vacio &gt;">
+                                       <font>
+                                          <Font name="Centaur" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="venta8" layoutX="294.0" layoutY="189.0" mnemonicParsing="false" onMouseClicked="#onClickVender" prefHeight="25.0" prefWidth="65.0" text="N/A">
+                                       <font>
+                                          <Font name="Centaur" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Label fx:id="ArticuloVenta8" layoutX="34.0" layoutY="189.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Vacio &gt;">
+                                       <font>
+                                          <Font name="Centaur" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="venta9" layoutX="294.0" layoutY="214.0" mnemonicParsing="false" onMouseClicked="#onClickVender" prefHeight="25.0" prefWidth="65.0" text="N/A">
+                                       <font>
+                                          <Font name="Centaur" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Label fx:id="ArticuloVenta9" layoutX="34.0" layoutY="214.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Vacio &gt;">
+                                       <font>
+                                          <Font name="Centaur" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="venta10" layoutX="294.0" layoutY="239.0" mnemonicParsing="false" onMouseClicked="#onClickVender" prefHeight="25.0" prefWidth="65.0" text="N/A">
+                                       <font>
+                                          <Font name="Centaur" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Label fx:id="ArticuloVenta10" layoutX="34.0" layoutY="239.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Vacio &gt;">
+                                       <font>
+                                          <Font name="Centaur" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="venta11" layoutX="294.0" layoutY="264.0" mnemonicParsing="false" onMouseClicked="#onClickVender" prefHeight="25.0" prefWidth="65.0" text="N/A">
+                                       <font>
+                                          <Font name="Centaur" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Label fx:id="ArticuloVenta11" layoutX="34.0" layoutY="264.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Vacio &gt;">
+                                       <font>
+                                          <Font name="Centaur" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="venta12" layoutX="294.0" layoutY="289.0" mnemonicParsing="false" onMouseClicked="#onClickVender" prefHeight="25.0" prefWidth="65.0" text="N/A">
+                                       <font>
+                                          <Font name="Centaur" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Label fx:id="ArticuloVenta12" layoutX="34.0" layoutY="289.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Vacio &gt;">
+                                       <font>
+                                          <Font name="Centaur" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="venta13" layoutX="294.0" layoutY="314.0" mnemonicParsing="false" onMouseClicked="#onClickVender" prefHeight="25.0" prefWidth="65.0" text="N/A">
+                                       <font>
+                                          <Font name="Centaur" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Label fx:id="ArticuloVenta13" layoutX="34.0" layoutY="314.0" onMouseClicked="#onClickItemCompra" prefHeight="25.0" prefWidth="260.0" text="&lt; Vacio &gt;">
+                                       <font>
+                                          <Font name="Centaur" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fx:id="img1" fitHeight="25.0" fitWidth="25.0" layoutX="4.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fx:id="img2" fitHeight="25.0" fitWidth="25.0" layoutX="2.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fx:id="img3" fitHeight="25.0" fitWidth="25.0" layoutX="2.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fx:id="img4" fitHeight="25.0" fitWidth="25.0" layoutX="2.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fx:id="img5" fitHeight="25.0" fitWidth="25.0" layoutX="2.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fx:id="img6" fitHeight="25.0" fitWidth="25.0" layoutX="4.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fx:id="img7" fitHeight="25.0" fitWidth="25.0" layoutX="4.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fx:id="img8" fitHeight="25.0" fitWidth="25.0" layoutX="4.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fx:id="img9" fitHeight="25.0" fitWidth="25.0" layoutX="4.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fx:id="img10" fitHeight="25.0" fitWidth="25.0" layoutX="4.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fx:id="img11" fitHeight="25.0" fitWidth="25.0" layoutX="7.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fx:id="img12" fitHeight="25.0" fitWidth="25.0" layoutX="7.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fx:id="img13" fitHeight="25.0" fitWidth="25.0" layoutX="7.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </AnchorPane>
+                           </content>
                       </Tab>
                     </tabs>
                   </TabPane>
@@ -361,7 +507,52 @@
                         <Font name="Centaur" size="18.0" />
                      </font>
                   </Label>
-                  <AnchorPane fx:id="equiparMenu" layoutX="99.0" layoutY="65.0" prefHeight="122.0" prefWidth="176.0" style="-fx-border-style: Solid;" visible="false">
+                  <Label fx:id="dineroLabel" alignment="BASELINE_RIGHT" layoutX="71.0" layoutY="39.0" prefHeight="25.0" prefWidth="95.0" text="00000">
+                     <font>
+                        <Font name="Centaur" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BASELINE_RIGHT" layoutX="8.0" layoutY="39.0" prefHeight="25.0" prefWidth="63.0" text="Dinero:  ">
+                     <font>
+                        <Font name="Centaur" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BASELINE_RIGHT" layoutX="10.0" layoutY="14.0" prefHeight="25.0" prefWidth="61.0" text="Nombre:">
+                     <font>
+                        <Font name="Centaur" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="nombreLabel" alignment="BASELINE_RIGHT" layoutX="71.0" layoutY="14.0" prefHeight="25.0" prefWidth="95.0" text="Personaje">
+                     <font>
+                        <Font name="Centaur" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BASELINE_RIGHT" layoutX="14.0" layoutY="214.0" prefHeight="25.0" prefWidth="70.0" text="Armadura:">
+                     <font>
+                        <Font name="Centaur" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BASELINE_RIGHT" layoutX="14.0" layoutY="187.0" prefHeight="25.0" prefWidth="70.0" text="Espada:    ">
+                     <font>
+                        <Font name="Centaur" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="armaduraLabel" layoutX="90.0" layoutY="214.0" prefHeight="25.0" prefWidth="260.0" text="&lt; Ninguna &gt;">
+                     <font>
+                        <Font name="Centaur" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="espadaLabel" layoutX="90.0" layoutY="187.0" prefHeight="25.0" prefWidth="260.0" text="&lt; Ninguna &gt;">
+                     <font>
+                        <Font name="Centaur" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BASELINE_RIGHT" layoutX="14.0" layoutY="162.0" prefHeight="25.0" prefWidth="103.0" text="EQUIPADOS:">
+                     <font>
+                        <Font name="Centaur" size="18.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane fx:id="equiparMenu" layoutX="99.0" layoutY="65.0" prefHeight="122.0" prefWidth="176.0" style="-fx-border-style: Solid; -fx-background-color: White;" visible="false">
                      <children>
                         <Label alignment="BASELINE_RIGHT" layoutX="13.0" layoutY="36.0" prefHeight="25.0" prefWidth="151.0" text="¿Desea equipar el item?">
                            <font>

@@ -1,6 +1,11 @@
 public class Personaje {
     protected String nombre;
     protected Stats stats = new Stats();
+    protected Stats baseStats = new Stats();
+    protected int dinero = 3_000;
+    protected Inventario inventario = new Inventario();
+    protected Arma armaEquipada;
+    protected Armadura armaduraEquipada;
 
     public Personaje(String nombrePersonaje) {
         nombre = nombrePersonaje;
@@ -23,32 +28,48 @@ public class Personaje {
     }
 
     public void equiparArma(Arma arma) {
+        if(armaEquipada != null) { desequiparArma(); }
         incATK(arma.atkStat);
         incCRIT(arma.critStat);
         incMP(arma.mpStat);
+        armaEquipada = arma;
     }
     public void equiparArmadura(Armadura armadura) {
+        if(armaduraEquipada != null) { desequiparArmadura(); }
         incDEF(armadura.defStat);
         incHP(armadura.hpStat);
         incMP(armadura.mpStat);
+        armaduraEquipada = armadura;
     }
     public void equiparConsumible(Consumible consumible) {
         incHP(consumible.hpStat);
         incMP(consumible.mpStat);
+        baseStats.setHP(baseStats.HP + consumible.hpStat);
+        baseStats.setMP(baseStats.MP + consumible.mpStat);
     }
-    public  void desequiparArma(Arma arma) {
-        incATK(-arma.atkStat);
-        incCRIT(-arma.critStat);
-        incMP(-arma.mpStat);
+    public  void desequiparArma() {
+        if(armaEquipada != null) {
+            incATK(-armaEquipada.atkStat);
+            incCRIT(-armaEquipada.critStat);
+            incMP(-armaEquipada.mpStat);
+            armaEquipada = null;
+        }
     }
-    public void desequiparArmadura(Armadura armadura) {
-        incDEF(-armadura.defStat);
-        incHP(-armadura.hpStat);
-        incMP(-armadura.mpStat);
+    public void desequiparArmadura() {
+        if(armaduraEquipada != null) {
+            incDEF(-armaduraEquipada.defStat);
+            incHP(-armaduraEquipada.hpStat);
+            incMP(-armaduraEquipada.mpStat);
+            armaduraEquipada = null;
+        }
     }
 
     public void imprimirPersonaje() {
         System.out.println(nombre);
         stats.imprimirStats();
+    }
+
+    public void setDinero(int Dinero) {
+        dinero += Dinero;
     }
 }
