@@ -614,6 +614,7 @@ public class guiController {
                 break;
             }
             case("ArticuloCompra6"): {
+                if(comprarButton6.getText() == "N/A") { break; }
                 hpLabel2.setText(Integer.toString(personaje.baseStats.HP + Armadura1.hpStat));
                 mpLabel2.setText(Integer.toString(personaje.baseStats.MP + Armadura1.mpStat));
                 defLabel2.setText(Integer.toString(personaje.baseStats.DEF + Armadura1.defStat));
@@ -623,6 +624,7 @@ public class guiController {
                 break;
             }
             case("ArticuloCompra7"): {
+                if(comprarButton7.getText() == "N/A") { break; }
                 hpLabel2.setText(Integer.toString(personaje.baseStats.HP + Armadura2.hpStat));
                 mpLabel2.setText(Integer.toString(personaje.baseStats.MP + Armadura2.mpStat));
                 defLabel2.setText(Integer.toString(personaje.baseStats.DEF + Armadura2.defStat));
@@ -632,6 +634,7 @@ public class guiController {
                 break;
             }
             case("ArticuloCompra8"): {
+                if(comprarButton8.getText() == "N/A") { break; }
                 hpLabel2.setText(Integer.toString(personaje.baseStats.HP + Armadura3.hpStat));
                 mpLabel2.setText(Integer.toString(personaje.baseStats.MP + Armadura3.mpStat));
                 defLabel2.setText(Integer.toString(personaje.baseStats.DEF + Armadura3.defStat));
@@ -641,6 +644,7 @@ public class guiController {
                 break;
             }
             case("ArticuloCompra9"): {
+                if(comprarButton9.getText() == "N/A") { break; }
                 hpLabel2.setText(Integer.toString(personaje.baseStats.HP + Armadura4.hpStat));
                 mpLabel2.setText(Integer.toString(personaje.baseStats.MP + Armadura4.mpStat));
                 defLabel2.setText(Integer.toString(personaje.baseStats.DEF + Armadura4.defStat));
@@ -650,6 +654,7 @@ public class guiController {
                 break;
             }
             case("ArticuloCompra10"): {
+                if(comprarButton10.getText() == "N/A") { break; }
                 hpLabel2.setText(Integer.toString(personaje.baseStats.HP + Armadura5.hpStat));
                 mpLabel2.setText(Integer.toString(personaje.baseStats.MP + Armadura5.mpStat));
                 defLabel2.setText(Integer.toString(personaje.baseStats.DEF + Armadura5.defStat));
@@ -659,6 +664,7 @@ public class guiController {
                 break;
             }
             case("ArticuloCompra11"): {
+                if(comprarButton11.getText() == "N/A") { break; }
                 hpLabel2.setText(Integer.toString(personaje.baseStats.HP + Consumible1.hpStat));
                 mpLabel2.setText(Integer.toString(personaje.baseStats.MP + Consumible1.mpStat));
                 hpFlecha.setVisible(true);
@@ -666,6 +672,7 @@ public class guiController {
                 break;
             }
             case("ArticuloCompra12"): {
+                if(comprarButton12.getText() == "N/A") { break; }
                 hpLabel2.setText(Integer.toString(personaje.baseStats.HP + Consumible2.hpStat));
                 mpLabel2.setText(Integer.toString(personaje.baseStats.MP + Consumible2.mpStat));
                 hpFlecha.setVisible(true);
@@ -673,6 +680,7 @@ public class guiController {
                 break;
             }
             case("ArticuloCompra13"): {
+                if(comprarButton13.getText() == "N/A") { break; }
                 hpLabel2.setText(Integer.toString(personaje.baseStats.HP + Consumible3.hpStat));
                 mpLabel2.setText(Integer.toString(personaje.baseStats.MP + Consumible3.mpStat));
                 hpFlecha.setVisible(true);

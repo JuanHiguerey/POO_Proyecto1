@@ -1,4 +1,4 @@
-public class Item {
+    public class Item {
     protected int precioVenta;
     protected int precioCompra;
     protected String nombre;
